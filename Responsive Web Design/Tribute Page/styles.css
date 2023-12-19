@@ -1,0 +1,52 @@
+img {
+    margin: auto;
+    display: flex;
+    width: 500px;
+    display: block;
+  }
+  
+  #image {
+    max-width: 100%;
+  }
+  
+  main {
+    background-color: rgb(230,230,230);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  #img-div {
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  body {
+    font-family: tahoma, sans-serif;
+  }
+  
+  figcaption {
+    text-align: center;
+  }
+  
+  section {
+    width: 600px; 
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  li {
+    text-align: left;
+  }

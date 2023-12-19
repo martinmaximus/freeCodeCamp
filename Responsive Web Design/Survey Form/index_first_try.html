@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles_first_try.css"/>
+        <title>freeCodeCamp Survey Form</title>
+    </head>
+    <body>
+        <div class="outside">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p class="subtitle">Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <div class="inside">
+            <section class="container">
+                <form method="post" action="">  
+                    <label for="name">Name<input id="name" name="name" type="text" placeholder="Enter your name" required/></label>
+                    <label for="email">Email<input id="name" name="email" type="email" placeholder="Enter your Email" required/></label>
+                    <label for="age">Age (optional)<input id="age" name="age" type="number" placeholder="Age" min="10" max="120"/></label>
+                    <label for="role">Which option best decribes your current role?
+                        <select id="role" name="role">
+                            <option value=""></option>
+                            <option value="1">something</option>
+                            <option value="2">some other thing</option>
+                            <option value="3">other</option>
+                        </select>
+                    </label>
+                    <label>Would you recommend freeCodeCamp to a friend?</label>
+                    <label for="definitely"><input id="definitely" value="1" name="definitely-maybe-not sure" type="radio" class="inline" checked/>Definitely</label>
+                    <label for="maybe"><input id="maybe" value="2" name="definitely-maybe-not sure" type="radio" class="inline"/>Maybe</label>
+                    <label for="not sure"><input id="not sure" value="3" name="definitely-maybe-not sure" type="radio" class="inline"/>Not sure</label>
+                    <label for="feature">What is your favorite feature of freeCodeCamp?
+                        <select id="feature" name="feature">
+                            <option value=""></option>
+                            <option value="1">Challenges</option>
+                            <option value="3">Open Source</option>
+                            <option value="4">Cheeseburgers</option>
+                        </select>
+                    </label>
+                    <label>What would you like to see improved?</label>
+                    <label for="front"><input id="front" value="1" type="checkbox" class="inline"/>Front-end Projects</label>
+                    <label for="pizza"><input id="pizza" value="pizza" type="checkbox" class="inline"/>Pizza supply</label>
+                    <label for="nothing"><input id="nothing" value="all good" type="checkbox" class="inline"/>Nothing, everything is good!</label>
+                    <label for="comments">
+                        <textarea id="comments" rows="3" cols="30" placeholder="Enter your sassy remarks here..."></textarea>
+                    </label>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </div>
+    </body>
+</html>
